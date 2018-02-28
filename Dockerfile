@@ -1,5 +1,5 @@
 # Use ubuntu trusty tar (14.04 LTS) as base image
-FROM synec/nvm
+FROM synec/nvm-node
 
 MAINTAINER System Insights
 
@@ -45,4 +45,4 @@ EXPOSE 8080
 
 
 # overwrite this with 'CMD []' in a dependent Dockerfile
-CMD ["/bin/bash"]
+CMD ["npm","start"]
