@@ -40,6 +40,7 @@ RUN npm install --only=dev
 
 # TODO VOLUME /var/log/vimana
 # TODO EXPORT ports
+EXPOSE 3000
 EXPOSE 7000
 EXPOSE 8080
 
