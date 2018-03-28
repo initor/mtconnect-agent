@@ -38,6 +38,7 @@ node_modules
 .idea/
 .node_modules/
 .DS_Store
+.gradle/
 
 # literate-programming
 build
